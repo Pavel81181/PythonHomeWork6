@@ -7,8 +7,7 @@ a = int(input('Введите первый элемент прогрессии: 
 n = int(input('Введите количество элементов прогрессии: '))
 d = int(input('Введите разность прогрессии: '))
 list_1 = []
-for i in range (1,n+1):
-    list_1.append(a + (i-1)*d)
+for i in range (n):
+    list_1.append(a + i*d)
 print(f'Полученная прогрессия: {list_1}')
-
 
